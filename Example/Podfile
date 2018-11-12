@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'thanat_Example' do
+  pod 'thanat', :path => '../'
+
+  target 'thanat_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
