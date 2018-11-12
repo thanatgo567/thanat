@@ -1,0 +1,16 @@
+PODS:
+  - thanat (0.1.0)
+
+DEPENDENCIES:
+  - thanat (from `../`)
+
+EXTERNAL SOURCES:
+  thanat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  thanat: 6aa419c7d7b2adab8c631ca69cd9a2c667e5fe38
+
+PODFILE CHECKSUM: 9110e485b0b8f3c502141a76c4e10061635949f1
+
+COCOAPODS: 1.5.3

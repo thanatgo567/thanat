@@ -1,0 +1,6 @@
+framework module Pods_thanat_Example {
+  umbrella header "Pods-thanat_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

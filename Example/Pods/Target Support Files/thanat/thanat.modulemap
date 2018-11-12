@@ -1,0 +1,6 @@
+framework module thanat {
+  umbrella header "thanat-umbrella.h"
+
+  export *
+  module * { export * }
+}
