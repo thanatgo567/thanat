@@ -10,7 +10,7 @@
 		0209DF14017337FA5C45ABA85DAB5C37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		13F973A0F597880BAF2C82B1582FC87C /* thanat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554AA262A4158D955851482BFF32BE01 /* thanat-dummy.m */; };
 		264242B1210310601C5F4E2FDEDCD151 /* Pods-thanat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46173A51880837CF081095BA66DD7326 /* Pods-thanat_Tests-dummy.m */; };
-		53B1157C21999485006B82B9 /* Bnk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1157B21999485006B82B9 /* Bnk.swift */; };
+		53B1157D219996CB006B82B9 /* Bnk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1157B21999485006B82B9 /* Bnk.swift */; };
 		5BDC17DF0B6FCFA0B8011914B55E85C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		7A845A66F1589D3670E0B3AF5621F515 /* Pods-thanat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4BB37EA8AEF940224798B66F85F7E5 /* Pods-thanat_Example-dummy.m */; };
 		8143F14A75F914C43984C91B05B706FE /* Pods-thanat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E10871A40DE986A42FAFA1F1BDA45A45 /* Pods-thanat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -125,8 +125,8 @@
 		357FC6E7F96F26E1EC3070E3F79F0624 /* thanat */ = {
 			isa = PBXGroup;
 			children = (
-				53B1157A21999479006B82B9 /* Classes */,
 				70B6D06E824E8C51AB86213A8E647312 /* ReplaceMe.swift */,
+				53B1157B21999485006B82B9 /* Bnk.swift */,
 				07B41F280298BBA64E902DCE47A4CF7C /* Pod */,
 				897BCF5E1D582B52CD9E505C283CBB74 /* Support Files */,
 			);
@@ -140,14 +140,6 @@
 				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		53B1157A21999479006B82B9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				53B1157B21999485006B82B9 /* Bnk.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -386,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B1157D219996CB006B82B9 /* Bnk.swift in Sources */,
 				A9B16A0224A6A62B0B7ABA51E9EB74DE /* ReplaceMe.swift in Sources */,
 				13F973A0F597880BAF2C82B1582FC87C /* thanat-dummy.m in Sources */,
 			);
@@ -404,7 +397,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A845A66F1589D3670E0B3AF5621F515 /* Pods-thanat_Example-dummy.m in Sources */,
-				53B1157C21999485006B82B9 /* Bnk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
