@@ -1,7 +1,9 @@
 import Foundation
 
 public class Bnk {
-    func printBNK() {
+    public func printBNK() {
         print("bnk48")
     }
+    
+    public init() { }
 }
